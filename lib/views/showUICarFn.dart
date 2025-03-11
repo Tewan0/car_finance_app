@@ -1,17 +1,15 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, unused_field, prefer_final_fields, sort_child_properties_last, prefer_is_empty
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
-class showUICarFn extends StatefulWidget {
-  const showUICarFn({super.key});
+class ShowUICarFn extends StatefulWidget {
+  const ShowUICarFn({super.key});
 
   @override
-  State<showUICarFn> createState() => _showUICarFnState();
+  State<ShowUICarFn> createState() => _ShowUICarFnState();
 }
 
-class _showUICarFnState extends State<showUICarFn> {
+class _ShowUICarFnState extends State<ShowUICarFn> {
   int _selectedPercent = 0;
   int? _selectedValue;
 
